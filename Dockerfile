@@ -6,5 +6,5 @@ RUN npm install --omit=dev
 COPY . .
 EXPOSE 443 
  
-CMD ["npm", "run dev"]
+CMD ["npm", "start", "dev"]
 
