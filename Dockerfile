@@ -4,7 +4,7 @@ WORKDIR /app
 COPY package.json .
 RUN npm install --omit=dev
 COPY . .
-EXPOSE 443 
+EXPOSE 5000 
  
 CMD ["npm", "start", "dev"]
 
