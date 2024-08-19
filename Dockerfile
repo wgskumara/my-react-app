@@ -6,5 +6,5 @@ RUN npm install --omit=dev
 COPY . .
 EXPOSE 5000 
  
-CMD ["npm", "start", "dev"]
+CMD ["npm", "run", "dev"]
 
